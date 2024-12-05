@@ -7,7 +7,7 @@ Un blog increíble creado con amor para los amantes de los michis, el aprendizaj
 
 ---
 
-## ¿Qué encontrarás en Hyperblog?
+## ¿Qué encontrarás en MishiBlog?
 * Todo sobre Git y cómo usarlo como un(a) profesional.
 * El flujo completo de trabajo en Github para dominar el repositorio como un ninja.
 * Buenas prácticas que harán llorar de alegría a tu código.
@@ -18,12 +18,12 @@ Un blog increíble creado con amor para los amantes de los michis, el aprendizaj
 
 ---
 
-## ¿Por qué creamos Hyperblog?
+## ¿Por qué creamos MishiBlog?
 Porque creemos en el poder de compartir el conocimiento y en los gatos como seres superiores que dominan el universo. Y claro, porque necesitábamos un lugar para juntar nuestras locuras y aprender juntos mientras descubrimos cómo no romper el código (o cómo arreglarlo si lo rompemos).
 
 ---
 
-## ¿Qué hace especial a Hyperblog?
+## ¿Qué hace especial a MishiBlog?
 * **Es único**: Mezclamos pasión por los gatos y tecnología.
 * **Es inclusivo**: Aquí caben programadores, diseñadores, gamers, curiosos y hasta los que no saben qué hace el botón derecho del ratón.
 * **Es nuestro**: Cada línea de código, cada diseño, y cada chiste malo es hecho con amor por el equipo.
