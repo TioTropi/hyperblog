@@ -30,7 +30,7 @@ Porque creemos en el poder de compartir el conocimiento y en los gatos como sere
 
 ---
 
-Y recuerda, **este README.md no es una declaración oficial ni una promesa de empleo en la NASA**. Es solo una muestra de que el aprendizaje puede ser divertido y creativo. Si llegaste hasta aquí, ve y comparte Hyperblog con alguien más... ¡y no olvides darle un premio a tu michi! 😺
+Y recuerda, **este README.md no es una declaración oficial ni una promesa de empleo en la NASA**. Es solo una muestra de que el aprendizaje puede ser divertido y creativo. Si llegaste hasta aquí, ve y comparte MishiBlog con alguien más... ¡y no olvides darle un premio a tu michi! 😺
 
 ---
 
