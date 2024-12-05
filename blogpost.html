@@ -1,36 +1,66 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>La Mishi mas enfema del condado.</title>
-        <link rel="stylesheet" href="css/estilos.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el diseño sea responsivo -->
+    <title>La Mishi más enferma del condado</title> <!-- Título que aparecerá en la pestaña del navegador -->
 
-    </head>
-    <body>
-        <div id="container">
-            <div id="cabecera">
-                <img id="logo" src="imagenes/logo.png">
-                Hyperblog
-                <span id="tagline">
-                    Tu blog de confianza por y para Michis.
-                </span>
-            </div>
-            <div id="post">
-                <h1>Este es el t&iacute;tulo alternativo de la Mishi Alicia</h1>
-                <p>Hay una gata muy enfema rondando por el vencindario es la Mishiii.</p>
-                <p>
-                    <img src="imagenes/gatito.png" width="40%">
-                </p>
-                <p>
-                    Los blogs son la mejor forma de compartir informacion y tus ideas. Mucho mas que ir a conferencias o salir en YouTube. Excepto si eres un Rockstar. Pero estadisticamente no lo eres... por ahora.
-                </p>
-            </div>
-            <div id="footer">
-                Hecho con amor en Platzi 😺
-            </div>
-        </div>
-    </body>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="css/estilos.css" />
+
+    <!-- Fuentes externas desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Mejora la velocidad de carga de fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabecera del sitio -->
+    <header id="cabecera">
+        <!-- Logotipo del blog -->
+        <img id="logo" src="imagenes/logo.png" alt="Logo de MishiBlog">
+        
+        <!-- Título principal del blog -->
+        <h1>MishiBlog</h1>
+        
+        <!-- Lema del blog -->
+        <p id="tagline">Tu blog de confianza por y para Mishis.</p>
+    </header>
+    
+    <!-- Contenedor principal del contenido -->
+    <main id="container">
+        <!-- Publicación del blog -->
+        <article id="post">
+            <!-- Título del artículo -->
+            <h2>Las aventuras locuases de la Mishi Alicia</h2>
+            
+            <!-- Párrafo introductorio -->
+            <p>Hay una gata muy enfema rondando por el vecindario, es la Mishiii.</p>
+            
+            <!-- Imagen del gatito con descripción -->
+            <figure>
+                <img src="imagenes/gatito.png" width="40%" alt="Imagen de un gatito">
+                <figcaption>Foto de la mas enfema</figcaption> <!-- Leyenda de la imagen -->
+            </figure>
+            
+            <!-- Imagen externa con enlace -->
+            <p>
+                <a href="https://mishialicia.io" target="_blank" rel="noopener noreferrer">
+                    <img src="https://i.imgur.com/8qo9GE3.jpg" width="20%" alt="La Mishi Alicia">
+                </a>
+            </p>
+            
+            <!-- Texto final del artículo -->
+            <p>
+                Los blogs son la mejor forma de compartir información y tus ideas. Mucho más que ir a conferencias o salir en YouTube. Excepto si eres un Rockstar. Pero estadísticamente no lo eres... por ahora.
+            </p>
+        </article>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+        <p>Hecho con amor en Platzi 😺</p>
+    </footer>
+</body>
 </html>
