@@ -1,68 +1,84 @@
-body
-{
-    background: #3f323e;
-    color: rgb(63, 11, 68);
+/* Estilos generales */
+body {
+    background: #3f323e; /* Fondo oscuro */
+    color: #333; /* Texto gris oscuro para buen contraste */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 18px; /* Tamaño estándar para lectura */
     margin: 0;
     padding: 0;
 }
 
-#cabecera
-{
-    background-color: rgb(161, 135, 173);
-    box-shadow: 0px 2px 25px 0px rgba(73, 49, 82, 0.5);
-    color: white;
+/* Cabecera */
+#cabecera {
+    background-color: rgb(161, 135, 173); /* Fondo pastel */
+    box-shadow: 0px 4px 15px rgba(73, 49, 82, 0.5); /* Sombra sutil */
+    color: white; /* Texto blanco */
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 1em; /* Espaciado ajustado */
     text-align: center;
-    font-size: 45px;
     font-family: "Abril Fatface", serif;
-    font-weight: normal;
-    font-style: normal;
-    
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* Línea decorativa */
 }
 
-#cabecera #logo
-{
-    width: 50px;
-    vertical-align: middle;
+/* Título principal de la cabecera */
+#cabecera h1 {
+    font-size: 1.8rem; /* Tamaño ajustado del título */
+    margin: 0; /* Elimina márgenes predeterminados */
 }
 
-#cabecera #tagline
-{
-    padding: 0 0 0 1em;
-    font-weight: normal;
-    font-size: 0.7em;
-    
+/* Lema del blog */
+#cabecera #tagline {
+    display: block; /* Asegura que esté en una nueva línea */
+    font-size: 1.2rem; /* Tamaño más pequeño */
+    font-weight: 300; /* Fuente más ligera */
+    margin-top: 0.2em; /* Espaciado ajustado */
+    color: #FFE4E1; /* Tono pastel */
 }
 
-#container
-{
-    width: 70%;
-    padding: 0;
-    text-align: left;
-    border: 1px solid #000000;
-    margin: 0 auto;
+/* Logotipo */
+#cabecera #logo {
+    width: 70px; /* Tamaño del logotipo */
+    vertical-align: middle; /* Alineación con el texto */
+    margin-right: 10px; /* Espacio entre logo y título */
 }
 
-#container h1
-{
-    font-size: 30px;
+/* Contenedor principal */
+#container {
+    width: 80%; /* Ancho dinámico */
+    max-width: 1200px; /* Tamaño máximo */
+    margin: 1em auto; /* Centrado con márgenes */
+    padding: 1.5em;
+    background: #f8f8f8; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
 }
 
-#post
-{
-    background: white;
-    padding: 1em;
+/* Título del contenido */
+#container h1 {
+    font-size: 2rem; /* Tamaño ajustado */
+    margin-bottom: 1em;
+    color: #3f323e; /* Contraste con fondo claro */
+    font-family: 'Playfair Display', serif;
 }
 
-#footer
-{
-    background-color: rgb(161, 135, 173);
-    color: antiquewhite;
+/* Publicación */
+#post {
+    background: white; /* Fondo blanco */
+    padding: 2em; /* Espaciado interno */
     text-align: center;
-    padding: 0.5em;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #3f323e; /* Contraste con el fondo blanco */
+}
+
+/* Pie de página */
+#footer {
+    background-color: rgb(161, 135, 173); /* Fondo pastel */
+    color: antiquewhite; /* Texto claro */
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9rem; /* Tamaño reducido */
+    border-top: 2px solid rgba(255, 255, 255, 0.3); /* Línea decorativa */
 }
