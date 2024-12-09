@@ -82,3 +82,33 @@ body {
     font-size: 0.9rem; /* Tamaño reducido */
     border-top: 2px solid rgba(255, 255, 255, 0.3); /* Línea decorativa */
 }
+
+.boton-mapa {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .boton-mapa:hover {
+    background-color: #ffaa00;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ffaa00;
+  }
+  
